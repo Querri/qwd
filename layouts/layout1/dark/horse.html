@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style-t.css">
+  <link rel="stylesheet" type="text/css"
+        href='http://fonts.googleapis.com/css?family=Elsie:300,400,700|Roboto+Slab:300,400,700|Satisfy'>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+  <!-- navigation bar is included from another file -->
+  <!-- <div w3-include-html="navbar.html"></div> -->
+
+  <h1 class="title">#1 Pääskyt</h1>
+
+  <div class="navbar">
+    <a href="horse.html">tumma versio - hevonen</a>
+    <a href="index.html">tumma versio - etusivu</a>
+    <a href="../light/index.html">vaalea versio - etusivu</a>
+    <a href="../light/horse.html">vaalea versio - hevonen</a>
+  </div>
+
+
+  <div class="content">
+
+    <h2>Hirundinidae</h2>
+
+    <!-- table for basic information -->
+    <div class="info">
+      <table>
+        <tr>
+          <th class="info1">domeeni</th>
+          <td class="info2">aitotumaiset</td>
+          <th>ohjeet</th>
+        </tr>
+        <tr>
+          <th class="info1">kunta</th>
+          <td class="info-2">eläinkunta</td>
+          <td class="info3" rowspan="5">Kiikaroi.</td>
+        </tr>
+        <tr>
+          <th class="info1">pääjakso</th>
+          <td class="info2">selkäjänteiset</td>
+        </tr>
+        <tr>
+          <th class="info1">luokka</th>
+          <td class="info2">linnut</td>
+        </tr>
+        <tr>
+          <th class="info1">lahko</th>
+          <td class="info2">varpuslinnut</td>
+        </tr>
+        <tr>
+          <th class="info1">heimo</th>
+          <td class="info2">pääskyt</td>
+        </tr>
+        <tr>
+      </table>
+    </div>
+
+    <div class="gallery">
+      <div class="imgs">
+        <div class="img">
+          <a target="_blank" href="swallow1.jpg">
+            <img src="swallow1.jpg" alt="Trolltunga Norway">
+          </a>
+        </div>
+
+        <div class="img">
+          <a target="_blank" href="swallow2.jpg">
+            <img src="swallow2.jpg" alt="Forest">
+          </a>
+        </div>
+      </div>
+      <span>
+        kuvat <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">&copy</a>
+        <a href="https://www.flickr.com/photos/pontla/">pontla</a>
+      </span>
+    </div>
+
+
+    <div class="desc">
+      <p>Pääskyt pesivät puunkoloissa, kallionhalkeamissa,
+      ranta- tai maatörmissä, rakennuksissa tai rakentavat pesänsä johonkin sopivaan
+      paikkaan savesta. Useimmat pääskyt ovat hyviä pesänrakentajia. Pääskyt päällystävät
+      pesän ulkoseinän tahmealla syljellä yhteen liimatuista savikokkareista ja eräät
+      pääskyt kaivavat suuria käytäviä pystysuoriin jyrkänteisiin.</p>
+    </div>
+
+
+    <!-- table for parents and ofspring -->
+    <div class="heritage">
+      <h3>suku ja jälkeläiset</h3>
+      <table>
+        <tr>
+          <td rowspan="4">i</td>
+          <td rowspan="2">ii</td>
+          <td>iii</td>
+        </tr>
+        <tr>
+          <td>iie</td>
+        </tr>
+        <tr>
+          <td rowspan="2">ie</td>
+          <td>iei</td>
+        </tr>
+        <tr>
+          <td>iee</td>
+        </tr>
+        <tr>
+          <td rowspan="4">e</td>
+          <td rowspan="2">ei</td>
+          <td>eii</td>
+        </tr>
+        <tr>
+          <td>eie</td>
+        </tr>
+        <tr>
+          <td rowspan="2">ee</td>
+        <td>eei</td>
+        </tr>
+        <tr>
+          <td>eee</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td colspan="3">jälkeläinen 1</td>
+        </tr>
+        <tr>
+          <td colspan="3">jälkeläinen 2</td>
+        </tr>
+      </table>
+
+      <details class="heritage-desc">
+        <summary>Lue lisää</summary>
+        <table>
+          <tr>
+            <th>i</th>
+            <td>kuvaus isästä</td>
+          </tr>
+          <tr>
+            <th>e</th>
+            <td>kuvaus emästä</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>jne</td>
+          </tr>
+        </table>
+      </details>
+
+    </div>
+
+
+
+    <!-- table for competition results -->
+    <div class="results">
+      <h3>Kilpailumenestys</h3>
+      <table>
+        <tr>
+          <th>pvm</th>
+          <th>paikka</th>
+          <th>luokka</th>
+          <th>lentäjä</th>
+          <th>sijoitus</th>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+      </table>
+    </div>
+
+  </div>
+  <div class="footer">
+    Tämä on virtuaalitalli/-hevonen.
+    Ulkoasu <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">&copy</a>
+    <a href="#">Querri</a>,
+    otsikkokuva <a href="https://creativecommons.org/licenses/by-sa/2.0/">&copy</a>
+    <a href="https://www.flickr.com/photos/spreischlphotography/">S Preischl</a>
+  </div>
+
+
+  <script>
+  w3.includeHTML();
+  </script>
+
+</body>
+</html>

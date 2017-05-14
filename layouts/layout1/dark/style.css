@@ -1,0 +1,154 @@
+/* styling for layout #1: dark version */
+/* feel free to use and edit as you wish */
+/* Querri, 05/2017 */
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #bfb2ab;
+  background-color: #332c2b;
+  font: 300 16px 'Roboto Slab';
+}
+
+
+/* all links everywhere */
+a {
+  color: #d39353;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+
+/* subheading */
+h2 {
+  font: 300 30px 'Roboto Slab';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font: 300 20px 'Roboto Slab';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* all content */
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 500px;
+}
+
+
+/* image galleries */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.gallery a {
+  color: #bfb2ab;
+}
+
+.imgs {
+  display: flex;
+  margin: auto;
+}
+
+.img {
+  height: 180px;
+  margin: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img img {
+  width: auto;
+  height: 100%;
+}
+
+
+/* title image and text */
+.title {
+  margin: auto;
+  width: 100%;
+  background-image: url(pattern.png), url(title.jpg);
+  background-attachment: scroll, fixed;
+  background-size: 100%;
+  background-position: 0 0;
+  padding-top: 6px;
+  font-size: 70px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #191615;
+}
+
+.title-tall {
+  background-position: 0 25%;
+  padding-top: 170px;
+}
+
+
+/* navigation bar */
+.navbar {
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;  /* for safari */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #191615;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  display: block;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #332c2b;
+}
+
+
+/* disclaimer and copyright footer */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-image: url(pattern.png), url(title.jpg);
+  background-attachment: scroll, fixed;
+  background-size: 100%;
+  background-position: 0 0;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #191615;
+}
+
+.footer a {
+  color: inherit;
+}

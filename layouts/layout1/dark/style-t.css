@@ -1,0 +1,64 @@
+/* styling for layout #1: dark version, tables */
+/* feel free to use and edit as you wish */
+/* Querri, 05/2017 */
+
+.info, .desc, .heritage, .results {
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+}
+
+table {
+  width: 100%;
+  background-color: #191615;
+}
+
+table, th, td {
+  height: 30px;
+}
+
+th {
+  font: 300 13px 'Roboto Slab';
+  text-transform: uppercase;
+}
+
+.info1 {
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.info2 {
+  width: 30%;
+}
+
+.info3 {
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.heritage td {
+  width: 30%;
+  text-align: center;
+}
+
+.heritage-desc table {
+  background-color: inherit;
+}
+
+.heritage-desc th {
+  width: 20%;
+  text-align: right;
+}
+
+.heritage-desc td {
+  width: 80%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.results th, .results td {
+  width: 20%;
+}
