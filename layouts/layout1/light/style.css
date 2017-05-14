@@ -5,15 +5,15 @@
 body {
   margin: 0;
   padding: 0;
-  color: #bfb2ab;
-  background-color: #332c2b;
+  color: #362a1a;
+  background-color: #a99f92;
   font: 300 16px 'Roboto Slab';
 }
 
 
 /* all links everywhere */
 a {
-  color: #d39353;
+  color: #a66220;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ h3 {
 }
 
 .gallery a {
-  color: #bfb2ab;
+  color: #362a1a;
 }
 
 .imgs {
@@ -95,7 +95,7 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 10px;
-  color: #191615;
+  color: #dccfbf;
 }
 
 .header-tall {
@@ -112,7 +112,7 @@ h3 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #191615;
+  background-color: #dccfbf;
   text-transform: uppercase;
 }
 
@@ -130,7 +130,7 @@ h3 {
 }
 
 .navbar a:hover {
-  background-color: #332c2b;
+  background-color: #a99f92;
 }
 
 
