@@ -91,7 +91,7 @@ h3 {
   background-size: 100%;
   background-position: 0 0;
   font-size: 70px;
-  line-height: 49px;
+  line-height: 47px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 10px;
@@ -126,7 +126,7 @@ h3 {
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .navbar a:hover {
